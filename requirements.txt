@@ -1,11 +1,13 @@
 streamlit==1.49.1
 ultralytics==8.3.25
 
-# PyTorch CPU wheels for Python 3.13
-torch==2.7.1
+# PyTorch CPU wheels for Python 3.13 (matched pair)
+torch==2.7.0
 torchvision==0.22.0
 
-opencv-python-headless>=4.10
+# OpenCV — single variant to satisfy Ultralytics dep
+opencv-python==4.12.0.88
+
 pillow>=10.3
 requests>=2.31
 pandas>=2.2
