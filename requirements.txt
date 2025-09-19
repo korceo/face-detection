@@ -1,16 +1,7 @@
 streamlit==1.49.1
 ultralytics==8.3.25
-torch==2.4.1
-torchvision==0.19.1
-opencv-python-headless==4.10.0.84
-pillow>=10.3
-requests>=2.31
-pandas==2.3.2
-# Streamlit Cloud (Python 3.13) compatible
-streamlit==1.49.1
-ultralytics==8.3.25
 
-# PyTorch for Python 3.13 (CPU wheels)
+# PyTorch CPU wheels for Python 3.13
 torch==2.7.1
 torchvision==0.22.0
 
