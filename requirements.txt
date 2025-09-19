@@ -6,7 +6,7 @@ torch==2.7.0
 torchvision==0.22.0
 
 # OpenCV — single variant to satisfy Ultralytics dep
-opencv-python==4.12.0.88
+opencv-python-headless==4.12.0.88
 
 pillow>=10.3
 requests>=2.31
